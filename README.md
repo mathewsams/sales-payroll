@@ -4,14 +4,6 @@ A simple laravel CLI tool to identify the salary date of employees for the given
 
 ## Installation
 
-Download the app to a local web server and run the below artisan command in terminal.  
-
-```bash
-php artisan sales:pay-dates [year]
-```
-
-## Run Locally
-
 Clone the project
 
 ```bash
@@ -33,6 +25,7 @@ Command argument is optional
 php artisan sales:pay-dates
 
 # Generate details of a specific year
+php artisan sales:pay-dates [year]
 php artisan sales:pay-dates 2023
 
 ```
